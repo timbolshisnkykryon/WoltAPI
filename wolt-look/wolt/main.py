@@ -85,7 +85,7 @@ class Wolt:
         return None
 
 if "__main__" == __name__:
-    w = Wolt("Bar Ilan 2 Herzliya")
+    w = Wolt("Herzliya")
     if w.ready:
         w.search_for_product("burger")
     # print(w.restaurant_by_location(w.place_information_by_id(w.get_place_suggestions())))
